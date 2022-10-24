@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+.bg__mobile {
+    width: 375px;
+}
+.container-principal {
+    display: grid;
+    align-items: center;
+}
