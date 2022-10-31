@@ -1,23 +1,64 @@
-body {
-    
-}
 .bg__mobile {
     width: 100%;
 }
 .container-principal {
+    padding-top: 90px;
     display: grid;
     align-items: center;
+    width: 351px;
+    margin: auto auto auto auto;
 }
 .botao {
-    width: 250px;
     height: 40px;
     background-color: hsl(278, 68%, 11%);
     color: #FFFFFF;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
 }
 .entrada {
-    width: 350px;
-    margin: auto auto auto auto;
+    width: 351px;
+    font-size: 25px;
+}
+.container-final {
+    display: flex;
+    margin-top: 25px;
+}
+#mm {
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+    margin: 1px solid black;
+}
+#yy {
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+    margin: 1px solid black;
+}
+#cvc {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    margin: 1px solid black;
+}
+.descricao {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.cvc {
+    width: 50%;
+}
+.data {
+    width: 50%;
+}
+.containerCard {
+    margin-bottom: 20px;
+}
+
+.cartaocvc {
+    width: 70%;
+    position: relative;
 }

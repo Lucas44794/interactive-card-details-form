@@ -23,7 +23,7 @@
 
   000 -->
   <img src="images/bg-main-mobile.png" alt="Background Mobile" class="bg__mobile">
-  <!-- <img src="images/bg-main-desktop.png" alt="Background Desktop" class="bg__desktop"> -->
+  <img src="images/bg-card-back.png" alt="Fundo" class="cartaocvc">
   <main class="container container-principal">
     <div class="containerCard">
       <p class="descricao">Cardholder Name</p>
@@ -32,11 +32,15 @@
     <p class="descricao">Card Number</p>
     <input class="entrada" type="number" name="cardNumber" id="cardNumber" placeholder="e.g. 1234 5678 9123 0000">
     <div class="container container-final">
-      <p class="descricao">Exp. Date (MM/YY)</p>
-      <input type="number" id="mm" placeholder="MM">
-      <input type="number" id="yy" placeholder="YY">
-      <p class="descricao">CVC</p>
-      <input type="number" id="cvc" placeholder="e.g. 123">
+      <div class="data">
+        <p class="descricao">Exp. Date (MM/YY)</p>
+        <input type="number" id="mm" placeholder="MM">
+        <input type="number" id="yy" placeholder="YY">
+      </div>
+      <div class="cvc">
+        <p class="descricao">CVC</p>
+        <input type="number" id="cvc" placeholder="e.g. 123">
+      </div>
     </div>
     <button class="botao">Confirm</button>
   </main>
