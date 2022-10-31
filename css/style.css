@@ -1,11 +1,23 @@
 body {
-    margin: 0;
+    
 }
-
 .bg__mobile {
-    width: 375px;
+    width: 100%;
 }
 .container-principal {
     display: grid;
     align-items: center;
+}
+.botao {
+    width: 250px;
+    height: 40px;
+    background-color: hsl(278, 68%, 11%);
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.entrada {
+    width: 350px;
+    margin: auto auto auto auto;
 }
